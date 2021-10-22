@@ -1,5 +1,6 @@
 #This is a function with no arguments
 def function_one():
+   
  print('This is a new function')
 
 function_one()
