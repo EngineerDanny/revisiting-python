@@ -11,7 +11,8 @@ def loop_one():
 def loop_two():
     #Printing a list of numbers in steps
     for item in range(10, 0,-1):
-        time.sleep(1)
+        time.sleep(2)
         print(item)
 
 loop_two()
+
