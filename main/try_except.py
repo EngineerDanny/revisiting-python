@@ -10,8 +10,14 @@ try:
     denominator = int(input("Enter the denominator: \n"))
     answer = numerator / denominator
     print("The result of the division is " + str(answer))
-except ZeroDivisionError:
+except ZeroDivisionError as e:
+    print(e)
     print("Sorry u cant divide by zero") 
+except ValueError as e :
+    print(e)
+    print("Only integers values are accepted")
+
+
 except:
     print("Oops the inputs were not valid")    
 
