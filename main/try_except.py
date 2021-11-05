@@ -16,8 +16,6 @@ except ZeroDivisionError as e:
 except ValueError as e :
     print(e)
     print("Only integers values are accepted")
-
-
 except:
     print("Oops the inputs were not valid")    
 
